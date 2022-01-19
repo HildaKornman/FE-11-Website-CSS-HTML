@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--hier zet je de code in de head tags -->
+        <title> FE 11 HTML CSS Website </title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img src="Mobielmenu.jpg">
+                <a href="index.html"><img src="TdlCLogo.jpg"></a>
+                <img src="Winkelmand.jpg">
+            </header>
+            <nav class="navigation">
+                <a href="index.html" >___Home</a>
+                <a href="tapas.html">___Tapas </a>
+                <a href="bestellen.html" class="active">___Bestellen</a>
+                <a href="contact.html">___Contact</a>
+            </nav>
+            <main class="main">
+                <h1>Bestellen</h1>
+                <form name="contact" method="POST" data-netlify="true">
+                <div class="form-group">
+                    Bestelling:
+                    <input type="checkbox" id="alb" name="alb" value="Alb">
+                    <label for="alb">Albóndigas con tomate gehakballetjes -</label>
+                    <input type="checkbox" id="paa" name="paa" value="PaA">
+                    <label for="paa">Pollo al ajillo kippenboutjes -</label>
+                    <input type="checkbox" id="bast" name="bast" value="Bast">
+                    <label for="bast">Bastunakia me feta kaassticks -</label>
+                    <input type="checkbox" id="falb" name="falb" value="Falb">
+                    <label for="falb">Falafel red beet -</label>
+                    <input type="checkbox" id="dat" name="dat" value="Dat">
+                    <label for="dat">Dátiles con bacon pinchos -</label>
+                    <input type="checkbox" id="tort" name="tort" value="Tort">
+                    <label for="tort">Tortilla española aardappelomelet met ui</label> <br><br>
+                    <label for="date">Afleverdatum:</label>
+                    <input type="date" id="date" name="date"><br>
+                </div>
+                <div class="form-group">
+                     Aflevertijd:
+                    <input type="radio" id="ocht" name="time" value="Time">
+                    <label for="ocht">9-12 uur</label>
+                    <input type="radio" id="mid" name="time" value="Time">
+                    <label for="mid">12-17 uur</label>
+                    <input type="radio" id="av" name="time" value="Time">
+                    <label for="av">17-20 uur</label><br><br>
+                </div>
+                <div class="form-group">
+                    <label>Naam:</label> <input type="text" name="name" size="25">
+                </div>
+                <div class="form-group">
+                    <label>Adres:</label> <input type="text" name="adres" size="25">
+                </div>
+                <div class="form-group">
+                    <label>Postcode:</label> <input type="text" name="postcode" size="22">
+                </div>
+                <div class="form-group">
+                    <label>Plaats:</label> <input type="text" name="city" size="25">
+                </div>
+                <div class="form-group">
+                    <label>Telefoon:</label> <input type="tel" name="phone" size="22">
+                </div>
+                <div class="form-group">
+                    <label>Email: </label>
+                    <input type="text" name="email" size="25">
+                </div> <br>
+                    <input class="button" type="submit" value="Verzenden" name="Submit">
+                    <input class="button" type="reset" value="Velden leegmaken" name="Reset">
+                </form>
+            </main>
+            <aside class="news">
+                <h2>Nieuw: Churros</h2>
+                Probeer onze heerlijke krokante churros met chocoladedip. Heerlijk als toetje of bij de koffie. Profiteer van de speciale introductieprijs!
+                <br><br>
+                <img src="Churros%20met%20chocoladesaus.png" width="250px" class="nieuw">
+            </aside>
+            <footer class="footer">
+                <a href="">___Terug</a>
+                <a href="tapas.html">___Tapas</a>
+                <a href="bestellen.html">___Bestellen</a>
+                <a href="">___Vragen</a>
+                <a href="contact.html">___Nieuwsbrief</a>
+            </footer>
+        </div>
+    </body>
+</html>
